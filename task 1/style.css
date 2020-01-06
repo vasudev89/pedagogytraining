@@ -1,0 +1,65 @@
+:root{
+		  --bodyBg: rgba(0, 0, 0, 0.85);
+		  --openSans: 'Open Sans Condensed', sans-serif;
+		  --quickSand: 'Quicksand', sans-serif;
+		  --oxygen: 'Oxygen', sans-serif;
+		  --lobster: 'Lobster', cursive;
+		  --varelaRound: 'Varela Round', sans-serif;
+		  --kanit: 'Kanit', sans-serif;
+		  --righteous: 'Righteous', cursive;
+		  --courgette: 'Courgette', cursive;
+		  --rochester: 'Rochester', cursive;
+		  --niconne: 'Niconne', cursive;
+		  --kavivanar: 'Kavivanar', cursive;
+		  --berkshireSwash: 'Berkshire Swash', cursive;
+		  --delius: 'Delius', cursive;
+		  --shareTechMono: 'Share Tech Mono', monospace;
+		  --rubik: 'Rubik', sans-serif;
+		  --headerFgCol: black;
+		  --headerBgCol: #FFC706;
+		  --headerFgSizeRsp: 22px;
+		}
+
+		body {
+		  background: white !important;
+		}
+
+		.facet{
+		  background: white !important;
+		  /* margin: 50px 20px !important; */
+		  min-height: 200px;  
+		  padding: 10px !important;
+		  border-left: 25px solid #FFC706;
+		  /* border-bottom: 1px solid #FFC706; */
+		  margin: auto;
+		  margin-bottom: 10px;
+		  width: 100%;
+		  box-shadow: 0px 0px 1px gray;
+		}
+
+		.facetHeading{
+		  font-family: var(--oxygen);
+		}
+
+		.facetDescription{
+		  font-family: var(--oxygen);
+		}
+
+		.map {
+		  height: 200px;
+		  width: 100%;
+		}
+
+		.dataDisplayFacet{
+		  box-shadow: 0px 0px 1px gray;
+		  padding: 0 !important;
+		}
+
+		.facetTempDisplay{
+		  padding: 0px !important;
+		  margin: 0 !important;
+		  margin-bottom: 10px !important;
+		  font-family: var(--oxygen);
+		  text-align: center;
+		  vertical-align: middle;
+		}
